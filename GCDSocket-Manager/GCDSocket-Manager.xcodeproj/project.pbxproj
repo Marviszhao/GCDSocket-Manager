@@ -277,7 +277,7 @@
 				TargetAttributes = {
 					666122701D94D65200FDBD56 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = TP9NLAMUCX;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -494,12 +494,15 @@
 			baseConfigurationReference = 32D9B5FECF4D68BC17DDA8A2 /* Pods-GCDSocket-Manager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TP9NLAMUCX;
+				CODE_SIGN_IDENTITY = "iPhone Developer: zengyinglong zengyinglong (Z8S2PDRSVR)";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "GCDSocket-Manager/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.xinxindong.GCDSocket-Manager";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xxd.GCDSocket-Manager";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6e8db0e4-b571-427e-a642-4546b6c583f2";
+				PROVISIONING_PROFILE_SPECIFIER = xxd_test_develop_Profile;
 			};
 			name = Debug;
 		};
@@ -508,12 +511,15 @@
 			baseConfigurationReference = 0BCE5A31639C9BEFA7D0B1B4 /* Pods-GCDSocket-Manager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TP9NLAMUCX;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "GCDSocket-Manager/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.xinxindong.GCDSocket-Manager";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xxd.GCDSocket-Manager";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
